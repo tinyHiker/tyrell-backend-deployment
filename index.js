@@ -11,7 +11,7 @@ app.use(express.json())
 
 
 app.use(cors({
-    origin: ["http://localhost:5173", "https://tyrell-deployment-oufx4jyk7-taha-iqbals-projects.vercel.app"],
+    origin: ["http://localhost:5173", "https://tyrell-deployment-b1i7brw7b-taha-iqbals-projects.vercel.app"],
     credentials: true
 })) 
 
