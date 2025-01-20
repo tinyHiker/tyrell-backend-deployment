@@ -31,7 +31,7 @@ const getOrderByEmail = async (req, res) => {
       .sort({ createdAt: -1 })
       .populate("productIds"); 
 
-    if (!orders || orders.length === 0) {
+    if (!orders) {
       return res.status(404).json({ message: "Order not found" });
     }
 
